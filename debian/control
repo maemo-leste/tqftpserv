@@ -1,0 +1,14 @@
+Source: tqftpserv
+Section: pocophone
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends: debhelper-compat (= 12), libqrtr-dev
+Standards-Version: 4.3.0
+Homepage: https://github.com/andersson/tqftpserv
+Vcs-Git: https://github.com/maemo-leste/tqftpserv
+Vcs-Browser: https://github.com/maemo-leste/tqftpserv
+
+Package: tqftpserv
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Trivial File Transfer Protocol server over AF_QIPCRTR

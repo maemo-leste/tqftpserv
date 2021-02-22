@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+rc-update del tqftpserv default || true
+rc-update add tqftpserv sysinit || true
+
+exit 0
